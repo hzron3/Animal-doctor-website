@@ -85,10 +85,10 @@ const Home = () => {
           </p>
           <div className="mt-3 sm:mt-4 md:mt-6">
             <Link
-              href={"/services"}
+              href={"/about-us#our-story"}
               className="text-sm xs:text-base sm:text-lg md:text-[20px] px-4 sm:px-6 py-2 sm:py-3 bg-[#2CA58D] rounded-lg text-white hover:bg-[#06ad9f] hover:scale-105 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl"
             >
-              Book an Appointment
+              Discover Our Story
             </Link>
           </div>
         </div>
@@ -199,7 +199,7 @@ const Home = () => {
 
       {/* About Us Section */}
       <section className="bg-white py-16 sm:py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto  grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
@@ -224,9 +224,24 @@ const Home = () => {
               lasting relationships with families who trust us with their
               beloved companions.
             </p>
-            <button className="bg-[#2CA58D] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#249177] transition-colors duration-200">
-              Learn More
-            </button>
+            <Link href="/about-us">
+              <button className="bg-[#2CA58D] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#249177] transition-colors duration-200 inline-flex items-center hover:cursor-pointer">
+                Learn More
+                <svg
+                  className="ml-2 h-4 w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </button>
+            </Link>
           </div>
 
           {/* Right Image */}
@@ -242,7 +257,7 @@ const Home = () => {
 
       {/* Our Features Section */}
       <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 text-center">
+        <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto text-center">
           {/* Section Header */}
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900">
             Our <span className="text-[#2CA58D]">Services</span>
@@ -266,18 +281,37 @@ const Home = () => {
                 <p className="text-sm text-gray-600 mb-4">
                   {service.description}
                 </p>
-                <a
-                  href="#"
+                {/* <Link
+                  href="/services"
                   className="text-[#2CA58D] font-medium hover:underline inline-flex items-center"
                 >
                   Learn more →
-                </a>
+                </Link> */}
               </div>
             ))}
           </div>
+          <div className="mt-12">
+            <Link href="/our-services">
+              <button className="bg-[#2CA58D] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#249177] transition-colors duration-200 inline-flex items-center hover:cursor-pointer">
+                View All Services
+                <svg
+                  className="ml-2 h-4 w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </button>
+            </Link>
+          </div>
         </div>
       </section>
-
       {/* Testimonial & CTA Sections */}
       <TestimonialsAndCTA />
     </>
