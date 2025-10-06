@@ -67,10 +67,10 @@ const Home = () => {
 
         {/* Main content */}
         <div className="w-full max-w-6xl text-start relative z-10 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-white text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-bold leading-tight animate-fadeIn drop-shadow-lg">
+          <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-bold leading-tight animate-fadeIn drop-shadow-lg">
             Compassionate Care for Your Pets
           </h1>
-          <p className="text-gray-200 text-sm xs:text-base sm:text-lg md:text-xl py-4 leading-relaxed animate-slideUp delay-100">
+          <p className="text-gray-200 text-base  sm:text-lg md:text-xl py-4 leading-relaxed animate-slideUp delay-100">
             At{" "}
             <span className="font-semibold text-[#2CA58D]">
               The Animal Doctor
@@ -80,13 +80,13 @@ const Home = () => {
             provide exceptional veterinary care for dogs, cats, and all beloved
             pets.
           </p>
-          <p className="text-[#2CA58D] text-base xs:text-lg sm:text-xl md:text-[22px] font-medium italic animate-slideUp delay-200 drop-shadow-md">
+          <p className="text-[#2CA58D] text-base sm:text-xl md:text-[22px] font-medium italic animate-slideUp delay-200 drop-shadow-md">
             "Because pets are family."
           </p>
           <div className="mt-3 sm:mt-4 md:mt-6">
             <Link
               href={"/about-us#our-story"}
-              className="text-sm xs:text-base sm:text-lg md:text-[20px] px-4 sm:px-6 py-2 sm:py-3 bg-[#2CA58D] rounded-lg text-white hover:bg-[#06ad9f] hover:scale-105 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl"
+              className="text-base  sm:text-lg md:text-[20px] px-4 sm:px-6 py-2 sm:py-3 bg-[#2CA58D] rounded-lg text-white hover:bg-[#06ad9f] hover:scale-105 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl"
             >
               Discover Our Story
             </Link>
@@ -94,10 +94,10 @@ const Home = () => {
         </div>
 
         {/* Stats */}
-        <div className="w-full max-w-6xl absolute bottom-2 xs:bottom-3 sm:bottom-4 md:bottom-6 lg:bottom-10 flex flex-wrap justify-center gap-2 xs:gap-3 sm:gap-4 md:gap-6 lg:gap-12 z-10 px-2 xs:px-3 sm:px-4">
-          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2 xs:pr-3 sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px] xs:min-w-[80px] sm:min-w-[100px]">
+        <div className="w-full max-w-6xl absolute bottom-2  sm:bottom-4 md:bottom-6 lg:bottom-10 flex flex-wrap justify-center gap-2  sm:gap-4 md:gap-6 lg:gap-12 z-10 px-2 sm:px-4">
+          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px] sm:min-w-[100px]">
             <svg
-              className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
+              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -109,17 +109,17 @@ const Home = () => {
                 d="M5 13l4 4L19 7"
               />
             </svg>
-            <span className="text-white text-sm xs:text-lg sm:text-xl md:text-2xl font-bold drop-shadow-md">
+            <span className="text-white text-base  sm:text-xl md:text-2xl font-bold drop-shadow-md">
               5,000+
             </span>
-            <span className="text-gray-300 text-[10px] xs:text-xs sm:text-sm md:text-base">
+            <span className="text-gray-300 text-[10px]  sm:text-base md:text-base">
               Pets Treated
             </span>
           </div>
 
-          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2 xs:pr-3 sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px] xs:min-w-[80px] sm:min-w-[100px]">
+          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px]  sm:min-w-[100px]">
             <svg
-              className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
+              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -137,17 +137,17 @@ const Home = () => {
                 d="M5 21h14"
               />
             </svg>
-            <span className="text-white text-sm xs:text-lg sm:text-xl md:text-2xl font-bold drop-shadow-md">
+            <span className="text-white text-base  sm:text-xl md:text-2xl font-bold drop-shadow-md">
               15+
             </span>
-            <span className="text-gray-300 text-[10px] xs:text-xs sm:text-sm md:text-base">
+            <span className="text-gray-300 text-[10px]  sm:text-base md:text-base">
               Years Experience
             </span>
           </div>
 
-          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2 xs:pr-3 sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px] xs:min-w-[80px] sm:min-w-[100px]">
+          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px]  sm:min-w-[100px]">
             <svg
-              className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
+              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -165,17 +165,17 @@ const Home = () => {
                 d="M12 14l6.16-3.422A12.083 12.083 0 0112 21a12.083 12.083 0 01-6.16-10.422L12 14z"
               />
             </svg>
-            <span className="text-white text-sm xs:text-lg sm:text-xl md:text-2xl font-bold drop-shadow-md">
+            <span className="text-white text-base sm:text-xl md:text-2xl font-bold drop-shadow-md">
               2,000+
             </span>
-            <span className="text-gray-300 text-[10px] xs:text-xs sm:text-sm md:text-base">
+            <span className="text-gray-300 text-[10px] sm:text-base md:text-base">
               Happy Pet Owners
             </span>
           </div>
 
-          <div className="flex flex-col items-center text-center pr-2 xs:pr-3 sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px] xs:min-w-[80px] sm:min-w-[100px]">
+          <div className="flex flex-col items-center text-center pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px]  sm:min-w-[100px]">
             <svg
-              className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
+              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -187,10 +187,10 @@ const Home = () => {
                 d="M11.05 2.93a1 1 0 011.9 0l1.52 4.67a1 1 0 00.95.69h4.92c.97 0 1.37 1.24.59 1.81l-3.98 2.9a1 1 0 00-.36 1.12l1.52 4.67c.3.92-.76 1.69-1.54 1.12l-3.97-2.89a1 1 0 00-1.18 0l-3.97 2.89c-.78.57-1.84-.2-1.54-1.12l1.52-4.67a1 1 0 00-.36-1.12L2.06 10.1c-.78-.57-.38-1.81.59-1.81h4.92a1 1 0 00.95-.69l1.52-4.67z"
               />
             </svg>
-            <span className="text-white text-sm xs:text-lg sm:text-xl md:text-2xl font-bold drop-shadow-md">
+            <span className="text-white text-base  sm:text-xl md:text-2xl font-bold drop-shadow-md">
               98%
             </span>
-            <span className="text-gray-300 text-[10px] xs:text-xs sm:text-sm md:text-base">
+            <span className="text-gray-300 text-[10px]  sm:text-base md:text-base">
               Client Satisfaction
             </span>
           </div>
@@ -278,7 +278,7 @@ const Home = () => {
                 <h3 className="text-lg font-semibold mb-2 text-gray-800">
                   {service.title}
                 </h3>
-                <p className="text-sm text-gray-600 mb-4">
+                <p className="text-base text-gray-600 mb-4">
                   {service.description}
                 </p>
                 {/* <Link
