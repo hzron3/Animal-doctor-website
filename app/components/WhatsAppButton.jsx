@@ -14,7 +14,6 @@ const WhatsAppButton = () => {
     const audio = audioRef.current;
 
     if (audio) {
-      // Try muted autoplay (allowed in all browsers)
       audio.muted = true;
       audio.play().catch(() => {});
 
