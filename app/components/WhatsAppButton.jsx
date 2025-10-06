@@ -86,7 +86,7 @@ const WhatsAppButton = () => {
 
         {/* Pop-up Chat Window with Slide-in Animation */}
         {isOpen && (
-          <div className="absolute bottom-20 right-0 w-80 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden transform translate-y-4 animate-slide-down transition-all duration-300 ease-out">
+          <div className="absolute bottom-40 md:bottom-20 right-0 w-80 md:w-96 bg-white rounded-2xl shadow-2xl border border-gray-100 overflow-hidden transform translate-y-4 animate-slide-down transition-all duration-300 ease-out">
             {/* Header with Icon and Gradient */}
             <div className="bg-gradient-to-r from-green-500 to-green-600 px-6 py-4 text-white relative overflow-hidden">
               <div className="absolute inset-0 bg-black/5"></div>
