@@ -38,11 +38,15 @@ const WhatsAppButton = () => {
 
   const handleSend = () => {
     if (message.trim()) {
-      const encodedMessage = encodeURIComponent(message);
+      const greeting = "Animal Doctor Support,";
+      const fullMessage = `${greeting}\n\n${message}`;
+      const encodedMessage = encodeURIComponent(fullMessage);
+
       const whatsappUrl = `https://wa.me/${phoneNumber.replace(
         /[^0-9]/g,
         ""
       )}?text=${encodedMessage}`;
+
       window.open(whatsappUrl, "_blank", "noopener,noreferrer");
       setMessage("");
       setIsOpen(false);
