@@ -60,19 +60,19 @@ const AboutUs = () => {
       heading: "Our Founding Vision",
       description:
         "Founded in 2010 by a passionate team of animal lovers and vets, The Animal Doctor began as a small clinic dedicated to making high-quality care accessible to every pet family in the community.",
-      image: "https://picsum.photos/400/300?random=5",
+      image: "https://placecats.com/400/300",
     },
     {
       heading: "Growth Through Innovation",
       description:
         "Over the years, we've expanded our services with cutting-edge technology, from AI-assisted diagnostics to holistic wellness programs, always putting pet health first.",
-      image: "https://picsum.photos/400/300?random=6",
+      image: "https://placedog.net/400x300?id=87",
     },
     {
       heading: "Community and Compassion",
       description:
         "Beyond medical care, we’re proud to serve our community through outreach programs, rescue partnerships, and education initiatives that promote responsible pet ownership and animal welfare.",
-      image: "https://picsum.photos/400/300?random=7",
+      image: "https://placecats.com/400/300",
     },
   ];
 
@@ -112,7 +112,7 @@ const AboutUs = () => {
               <div className="sm:w-[650px] w-full sm:h-[500px] h-full sm:bg-gray-100 rounded-2xl sm:border border-gray-200 relative">
                 <img
                   className="sm:mt-4 sm:ml-4 w-full h-full rounded-2xl object-cover"
-                  src="https://picsum.photos/500/500?random=1"
+                  src="https://placedog.net/500x500?id=224"
                   alt="Veterinary team with pets"
                 />
               </div>
@@ -124,11 +124,11 @@ const AboutUs = () => {
                     Our Journey
                   </h6>
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-2 flex">
-                    <h2 className="text-[#2CA58D] text-3xl font-bold leading-normal lg:text-start text-center">
+                    <h2 className="text-[#2CA58D] text-xl md:text-3xl font-bold leading-normal lg:text-start text-center">
                       Pioneering Compassionate Veterinary Excellence
                     </h2>
                     <p className="text-gray-600 text-base font-normal leading-relaxed lg:text-start text-center">
-                      We're more than a clinic—we're a haven for pets and their
+                      We're more than a clinic we're a haven for pets and their
                       families, blending tradition with innovation to deliver
                       unmatched care.
                     </p>
@@ -184,10 +184,10 @@ const AboutUs = () => {
           <div className="mx-auto grid grid-cols-1 gap-x-6 gap-y-12 sm:gap-y-16  lg:grid-cols-2">
             <div className="lg:pt-2 lg:pr-6">
               <div>
-                <h2 className="text-sm text-[#2CA58D] font-semibold uppercase tracking-widest mb-1">
+                <h2 className="text-sm text-[#2CA58D] font-semibold capitalize tracking-widest mb-1 text-center lg:text-left">
                   What Sets Us Apart
                 </h2>
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <h2 className="text-xl md:text-3xl font-bold tracking-tight text-gray-900 text-center lg:text-left">
                   Dedicated to Unwavering Pet Wellness
                 </h2>
                 <p className="mt-4 text-base text-gray-600 leading-relaxed">
@@ -213,7 +213,7 @@ const AboutUs = () => {
             </div>
             <img
               alt="Modern veterinary facility"
-              src="https://picsum.photos/800/500?random=2"
+              src="https://placedog.net/800x500?id=214"
               width={800}
               height={500}
               className="w-full max-w-none rounded-xl shadow-md ring-1 ring-gray-300/10 sm:w-[40rem] md:-ml-4 lg:-ml-0 object-cover"
@@ -229,7 +229,7 @@ const AboutUs = () => {
             <span className="py-1 px-4 bg-[#2CA58D]/10 rounded-full text-sm font-medium text-[#2CA58D] text-center">
               Features
             </span>
-            <h2 className="text-3xl text-center font-bold text-gray-900 py-4">
+            <h2 className="text-xl md:text-3xl text-center font-bold text-gray-900 py-4">
               Revolutionary Veterinary Services
             </h2>
             <p className="text-base font-normal text-gray-600 max-w-md md:max-w-2xl mx-auto leading-relaxed">
@@ -370,7 +370,7 @@ const AboutUs = () => {
             <span className="inline-block py-2 px-5 bg-[#2CA58D]/10 rounded-full text-sm font-semibold text-[#2CA58D] tracking-wide">
               Our Story
             </span>
-            <h2 className="mt-5 text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
+            <h2 className="mt-5 text-xl md:text-3xl font-bold text-gray-900 leading-tight">
               Empowering Pets and Owners Through Innovation and Care
             </h2>
             <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -413,7 +413,7 @@ const AboutUs = () => {
           {/* CTA Section */}
           <div className="mt-24 text-center">
             <div className="bg-gradient-to-r from-[#2CA58D] to-[#239b80] py-16 px-8 rounded-2xl text-white shadow-lg">
-              <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
+              <h2 className="text-xl md:text-3xl font-extrabold mb-4">
                 Ready to Give Your Pet the Best Care?
               </h2>
               <p className="mb-8 text-white/90 text-lg max-w-2xl mx-auto">
@@ -429,9 +429,9 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section className="bg-gray-50 py-16" id="core-values">
+      <section className="bg-gray-50 pb-8 md:py-16" id="core-values">
         <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto  text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-4">
             Our Core Values
           </h2>
           <p className="text-gray-600 mb-12 max-w-2xl mx-auto">

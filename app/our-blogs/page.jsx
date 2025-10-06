@@ -13,7 +13,7 @@ export default function OurBlog() {
       title: "Top 5 Tips for New Pet Owners",
       excerpt:
         "Welcoming a new pet into your home is exciting! Here are our top tips to ensure a smooth transition and happy life together.",
-      image: "https://picsum.photos/600/400?random=12",
+      image: "https://placedog.net/600x400?id=101",
       alt: "New pet owner with puppy",
       date: "October 1, 2025",
       author: "Dr. Jane Smith",
@@ -26,7 +26,7 @@ export default function OurBlog() {
       title: "The Importance of Regular Vet Visits",
       excerpt:
         "Regular check-ups can catch health issues early and keep your pet thriving. Learn why they're crucial for your furry friend.",
-      image: "https://picsum.photos/600/400?random=13",
+      image: "https://placedog.net/600x400?id=113",
       alt: "Vet examining a cat",
       date: "September 15, 2025",
       author: "Dr. John Doe",
@@ -39,7 +39,7 @@ export default function OurBlog() {
       title: "Choosing the Right Pet Food: A Guide",
       excerpt:
         "With so many options available, selecting the best food for your pet can be overwhelming. Here's what you need to know.",
-      image: "https://picsum.photos/600/400?random=14",
+      image: "https://placecats.com/600/400",
       alt: "Various pet food options",
       date: "August 20, 2025",
       author: "Dr. Emily Brown",
@@ -52,7 +52,7 @@ export default function OurBlog() {
       title: "Summer Safety Tips for Pets",
       excerpt:
         "As temperatures rise, keep your pets safe and comfortable with these essential summer care tips.",
-      image: "https://picsum.photos/600/400?random=15",
+      image: "https://placedog.net/600x400?id=19",
       alt: "Dog playing in water",
       date: "July 5, 2025",
       author: "Dr. Michael Lee",
@@ -65,7 +65,7 @@ export default function OurBlog() {
       title: "Introducing a New Pet to Your Home",
       excerpt:
         "Bringing home a new furry friend? Learn how to make introductions smooth for everyone involved.",
-      image: "https://picsum.photos/600/400?random=16",
+      image: "https://placecats.com/600/400",
       alt: "Cat and dog meeting",
       date: "June 10, 2025",
       author: "Dr. Sarah Johnson",
@@ -84,12 +84,12 @@ export default function OurBlog() {
   return (
     <main className="bg-gray-50 min-h-screen antialiased">
       {/* Header Section */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="bg-white pb-3 md:pb-6 pt-28 md:pt-32">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%]  text-center">
           <h6 className="text-sm text-[#2CA58D] font-normal uppercase tracking-wider mb-2">
             Our Blog
           </h6>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
             Pet Care Insights & Advice
           </h1>
           <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">

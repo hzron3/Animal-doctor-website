@@ -24,7 +24,7 @@ const Header = () => {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <header className="bg-white fixed w-full top-0 z-50 py-3">
+    <header className="bg-white fixed w-full top-0 z-99 py-3">
       <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo Section */}

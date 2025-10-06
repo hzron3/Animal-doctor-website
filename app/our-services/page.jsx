@@ -33,7 +33,7 @@ const OurServices = () => {
         "Peace of mind for pet owners with expert recommendations and follow-up support",
       ],
       priceRange: "KES 5,000 - KES15,000",
-      image: "https://picsum.photos/600/400?random=1",
+      image: "https://placedog.net/600x400?id=1",
       alt: "Veterinarian consulting with pet owner",
     },
     {
@@ -46,7 +46,7 @@ const OurServices = () => {
         "Boosted immunity for active lifestyles, including boarding and daycare",
       ],
       priceRange: "KES 2,000 - KES 8,000 per vaccine",
-      image: "https://picsum.photos/600/400?random=2",
+      image: "https://www.placecats.com/600/400",
       alt: "Pet receiving vaccination",
     },
     {
@@ -59,7 +59,7 @@ const OurServices = () => {
         "Personalized medication advice from our veterinary pharmacists",
       ],
       priceRange: "Varies by prescription",
-      image: "https://picsum.photos/600/400?random=3",
+      image: "https://placedog.net/600x400?id=3",
       alt: "Pet pharmacy shelves",
     },
     {
@@ -72,7 +72,7 @@ const OurServices = () => {
         "Improved overall health by reducing risks of heart and kidney problems",
       ],
       priceRange: "KES 10,000 - KES50,000",
-      image: "https://picsum.photos/600/400?random=4",
+      image: "https://www.placecats.com/600/400",
       alt: "Pet dental cleaning",
     },
     {
@@ -85,7 +85,7 @@ const OurServices = () => {
         "Enhanced comfort and hygiene with sanitary trims and gland expressions",
       ],
       priceRange: "KES 3,000 - KES10,000",
-      image: "https://picsum.photos/600/400?random=5",
+      image: "https://placedog.net/600x400?id=7",
       alt: "Pet grooming session",
     },
     {
@@ -98,7 +98,7 @@ const OurServices = () => {
         "Promotes healthy weight management and energy levels",
       ],
       priceRange: "KES 1,000 - KES 5,000 per pack",
-      image: "https://picsum.photos/600/400?random=6",
+      image: "https://www.placecats.com/600/400",
       alt: "Pet food selection",
     },
     {
@@ -111,7 +111,7 @@ const OurServices = () => {
         "Socialization with other dogs to reduce anxiety and aggression",
       ],
       priceRange: "KES 7,500 - KES 20,000 per session",
-      image: "https://picsum.photos/600/400?random=7",
+      image: "https://placedog.net/600x400?id=12",
       alt: "Dog training class",
     },
     {
@@ -124,7 +124,7 @@ const OurServices = () => {
         "Quick recovery support with take-home care instructions",
       ],
       priceRange: "KES 20,000 - KES 80,000",
-      image: "https://picsum.photos/600/400?random=8",
+      image: "https://www.placecats.com/600/400",
       alt: "Pet surgery preparation",
     },
     {
@@ -137,7 +137,7 @@ const OurServices = () => {
         "Customized care plans including medication administration",
       ],
       priceRange: "KES 2,500 - KES 6,000 per day",
-      image: "https://picsum.photos/600/400?random=9",
+      image: "https://placedog.net/600x400?id=34",
       alt: "Pet daycare play area",
     },
     {
@@ -150,7 +150,7 @@ const OurServices = () => {
         "Comprehensive health insights for chronic disease management",
       ],
       priceRange: "KES 5,000 - KES 30,000",
-      image: "https://picsum.photos/600/400?random=10",
+      image: "https://www.placecats.com/600/400",
       alt: "Pet diagnostic lab",
     },
     {
@@ -163,7 +163,7 @@ const OurServices = () => {
         "Regular monitoring and adjustments based on seasonal risks",
       ],
       priceRange: "KES 1,500 - KES 5,000 per treatment",
-      image: "https://picsum.photos/600/400?random=11",
+      image: "https://placedog.net/600x400?id=67",
       alt: "Pet parasite control",
     },
   ];
@@ -198,12 +198,12 @@ const OurServices = () => {
   return (
     <main className="bg-gray-50 min-h-screen antialiased">
       {/* Header Section */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="bg-white pb-3 md:pb-6 pt-28 md:pt-32">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] text-center">
           <h6 className="text-sm text-[#2CA58D] font-normal uppercase tracking-wider mb-2">
             Our Services
           </h6>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
             Comprehensive Care for Your Beloved Pets
           </h1>
           <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -239,7 +239,7 @@ const OurServices = () => {
       </section>
 
       {/* Sticky Navigation Bar */}
-      <nav className="hidden md:block sticky top-20 z-50 bg-white shadow-md border-b border-gray-200">
+      <nav className="hidden md:block sticky top-24 z-50 bg-white shadow-md border-b border-gray-200">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%]">
           <ul className="flex flex-wrap space-y-4 justify-center gap-4 p-4">
             {services.map((service) => {
@@ -285,7 +285,7 @@ const OurServices = () => {
                 <div className="w-full lg:w-1/2 space-y-6">
                   <div className="flex items-center space-x-3">
                     <ShieldCheckIcon className="h-8 w-8 text-[#2CA58D]" />
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+                    <h2 className="text-xl md:text-3xl font-bold text-gray-900">
                       {service.name}
                     </h2>
                   </div>

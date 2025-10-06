@@ -14,7 +14,7 @@ export default function OurGallery() {
       title: "Happy Puppy Consultation",
       description: "A joyful puppy during its first health check-up.",
       category: "consultations",
-      image: "https://picsum.photos/800/600?random=17",
+      image: "https://placedog.net/600x400?id=1",
       alt: "Puppy consultation",
     },
     {
@@ -22,7 +22,7 @@ export default function OurGallery() {
       title: "Vaccination Day",
       description: "Administering a routine vaccine to ensure pet safety.",
       category: "vaccinations",
-      image: "https://picsum.photos/800/600?random=18",
+      image: "https://placedog.net/600x400?id=2",
       alt: "Pet vaccination",
     },
     {
@@ -30,7 +30,7 @@ export default function OurGallery() {
       title: "Grooming Session",
       description: "Professional grooming for a fluffy cat.",
       category: "grooming",
-      image: "https://picsum.photos/800/600?random=19",
+      image: "https://placecats.com/600/400?image=3",
       alt: "Cat grooming",
     },
     {
@@ -38,7 +38,7 @@ export default function OurGallery() {
       title: "Boarding Fun",
       description: "Pets enjoying playtime at our boarding facility.",
       category: "boarding",
-      image: "https://picsum.photos/800/600?random=20",
+      image: "https://placedog.net/600x400?id=4",
       alt: "Pet boarding",
     },
     {
@@ -46,7 +46,7 @@ export default function OurGallery() {
       title: "Dental Care",
       description: "Gentle dental cleaning for optimal oral health.",
       category: "dentistry",
-      image: "https://picsum.photos/800/600?random=21",
+      image: "https://placecats.com/600/400?image=5",
       alt: "Pet dentistry",
     },
     {
@@ -54,7 +54,7 @@ export default function OurGallery() {
       title: "Training Class",
       description: "Group training session for energetic dogs.",
       category: "training",
-      image: "https://picsum.photos/800/600?random=22",
+      image: "https://placedog.net/600x400?id=6",
       alt: "Dog training",
     },
     {
@@ -62,7 +62,7 @@ export default function OurGallery() {
       title: "Pharmacy Pick-up",
       description: "Selecting medications from our pet pharmacy.",
       category: "pharmacy",
-      image: "https://picsum.photos/800/600?random=23",
+      image: "https://placecats.com/600/400?image=7",
       alt: "Pet pharmacy",
     },
     {
@@ -70,7 +70,7 @@ export default function OurGallery() {
       title: "Surgical Recovery",
       description: "Post-operative care after elective surgery.",
       category: "surgery",
-      image: "https://picsum.photos/800/600?random=24",
+      image: "https://placedog.net/600x400?id=8",
       alt: "Pet surgery recovery",
     },
     {
@@ -78,7 +78,7 @@ export default function OurGallery() {
       title: "Diagnostic Imaging",
       description: "Advanced X-ray for precise diagnosis.",
       category: "diagnostics",
-      image: "https://picsum.photos/800/600?random=25",
+      image: "https://placedog.net/600x400?id=9",
       alt: "Pet diagnostic imaging",
     },
     {
@@ -86,7 +86,7 @@ export default function OurGallery() {
       title: "Parasite Prevention",
       description: "Applying flea and tick control treatment.",
       category: "prevention",
-      image: "https://picsum.photos/800/600?random=26",
+      image: "https://placedog.net/600x400?id=10",
       alt: "Parasite control",
     },
     {
@@ -94,7 +94,7 @@ export default function OurGallery() {
       title: "Nutrition Consultation",
       description: "Discussing custom diet plans for pets.",
       category: "nutrition",
-      image: "https://picsum.photos/800/600?random=27",
+      image: "https://placecats.com/600/400?image=11",
       alt: "Pet nutrition",
     },
     {
@@ -102,7 +102,7 @@ export default function OurGallery() {
       title: "Daycare Playtime",
       description: "Socialization during daycare hours.",
       category: "daycare",
-      image: "https://picsum.photos/800/600?random=28",
+      image: "https://placedog.net/600x400?id=12",
       alt: "Pet daycare",
     },
   ];
@@ -153,12 +153,12 @@ export default function OurGallery() {
   return (
     <main className="bg-gray-50 min-h-screen antialiased">
       {/* Header Section */}
-      <section className="bg-white py-16 md:py-20">
+      <section className="bg-white pb-8 pt-30 md:pt-32">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] text-center">
           <h6 className="text-sm text-[#2CA58D] font-normal uppercase tracking-wider mb-2">
             Gallery
           </h6>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-4">
             Capturing Moments of Care & Joy
           </h1>
           <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -170,24 +170,25 @@ export default function OurGallery() {
       </section>
 
       {/* Filter Section */}
+      <div className="hidden md:block mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%]">
+        <div className="flex flex-wrap justify-center gap-4 ">
+          {categories.map((category) => (
+            <button
+              key={category.id}
+              onClick={() => setFilter(category.id)}
+              className={`px-4 py-2 font-medium text-sm rounded-full transition-all duration-300 hover:cursor-pointer ${
+                filter === category.id
+                  ? "bg-[#2CA58D] text-white shadow-lg"
+                  : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+              }`}
+            >
+              {category.name}
+            </button>
+          ))}
+        </div>
+      </div>
       <section className="py-12 md:py-16 bg-white">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%]">
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {categories.map((category) => (
-              <button
-                key={category.id}
-                onClick={() => setFilter(category.id)}
-                className={`px-6 py-3 font-medium rounded-full transition-all duration-300 ${
-                  filter === category.id
-                    ? "bg-[#2CA58D] text-white shadow-lg"
-                    : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
-              >
-                {category.name}
-              </button>
-            ))}
-          </div>
-
           {/* Gallery Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {filteredImages.map((image) => (
@@ -239,7 +240,7 @@ export default function OurGallery() {
           >
             <button
               onClick={closeModal}
-              className="absolute -top-4 -right-4 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10"
+              className="absolute -top-4 -right-4 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 transition-colors z-10 hover:cursor-pointer"
             >
               <svg
                 className="h-6 w-6 text-gray-900"
@@ -259,7 +260,7 @@ export default function OurGallery() {
             {/* Navigation Arrows */}
             <button
               onClick={prevImage}
-              className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors z-10"
+              className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors z-10 hover:cursor-pointer"
             >
               <svg
                 className="h-6 w-6"
@@ -277,7 +278,7 @@ export default function OurGallery() {
             </button>
             <button
               onClick={nextImage}
-              className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors z-10"
+              className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-colors z-10 hover:cursor-pointer"
             >
               <svg
                 className="h-6 w-6"
@@ -295,7 +296,7 @@ export default function OurGallery() {
             </button>
 
             {/* Main Image */}
-            <div className="relative w-full h-[80vh] mb-4">
+            <div className="relative w-full h-[50vh] mb-4">
               <Image
                 src={currentImage.image}
                 alt={currentImage.alt}
@@ -328,7 +329,7 @@ export default function OurGallery() {
                   <button
                     key={img.id}
                     onClick={() => setSelectedIndex(idx)}
-                    className={`relative flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all ${
+                    className={`relative flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all hover:cursor-pointer ${
                       idx === selectedIndex
                         ? "border-white ring-2 ring-[#2CA58D]"
                         : "border-transparent"

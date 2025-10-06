@@ -48,7 +48,7 @@ const TestimonialsAndCTA = () => {
       {/* Call to Action */}
       <div className="bg-[#2CA58D] text-white rounded-2xl shadow-xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">
+          <h3 className="text-xl md:text-3xl  font-bold mb-3">
             Want Us to Call You Back?
           </h3>
           <p className="text-gray-100 text-sm md:text-base leading-relaxed">
@@ -66,7 +66,7 @@ const TestimonialsAndCTA = () => {
 
       {/* Testimonials */}
       <div className=" mx-auto text-center mt-16">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900">
+        <h2 className="text-xl sm:text-3xl font-bold mb-4 text-gray-900">
           What Our <span className="text-[#2CA58D]">Clients Say</span>
         </h2>
 

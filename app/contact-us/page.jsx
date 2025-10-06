@@ -12,7 +12,7 @@ const ContactUs = () => {
       <div className="relative w-full mx-auto top-20 px-4 py-12 md:py-16 overflow-hidden">
         <div className="relative z-10 flex flex-col items-center gap-6">
           <div className="text-center mb-6">
-            <h1 className="text-gray-900 text-3xl md:text-4xl font-bold leading-tight">
+            <h1 className="text-gray-900 text-2xl md:text-4xl font-bold leading-tight">
               Contact <span className="text-[#2CA58D]">The Animal Doctor</span>
             </h1>
             <p className="text-gray-600 text-base md:text-lg py-4 leading-relaxed max-w-2xl mx-auto">

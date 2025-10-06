@@ -202,7 +202,7 @@ const Home = () => {
         <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto  grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-6">
               About <span className="text-[#2CA58D]">The Animal Doctor</span>
             </h2>
             <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6">
@@ -259,7 +259,7 @@ const Home = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto text-center">
           {/* Section Header */}
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900">
+          <h2 className="text-xl md:text-3xl font-bold mb-4 text-gray-900">
             Our <span className="text-[#2CA58D]">Services</span>
           </h2>
           <p className="text-gray-600 mb-12">
