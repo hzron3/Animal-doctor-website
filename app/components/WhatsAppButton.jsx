@@ -8,7 +8,7 @@ const WhatsAppButton = () => {
   const [message, setMessage] = useState("");
   const [hasPlayedSound, setHasPlayedSound] = useState(false);
   const audioRef = useRef(null);
-  const phoneNumber = "+1234567890"; // Replace with your clinic's WhatsApp number
+  const phoneNumber = "+254799118283";
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -31,7 +31,7 @@ const WhatsAppButton = () => {
     setIsOpen(!isOpen);
     // Play sound on toggle for feedback
     if (audioRef.current) {
-      audioRef.current.currentTime = 0; // rewind sound
+      audioRef.current.currentTime = 0;
       audioRef.current.play().catch(() => {});
     }
   };
