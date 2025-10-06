@@ -14,8 +14,9 @@ const Header = () => {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about-us", label: "About Us" },
-    { href: "#", label: "Our Services" },
-    { href: "#", label: "Resources" },
+    { href: "/our-services", label: "Our Services" },
+    { href: "/our-gallery", label: "Our Gallery" },
+    { href: "/our-blogs", label: "Blogs" },
     { href: "/contact-us", label: "Contact Us" },
   ];
 
@@ -23,7 +24,7 @@ const Header = () => {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <header className="bg-white fixed w-full top-0 z-50 py-3">
+    <header className="bg-white fixed w-full top-0 z-99 py-3">
       <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo Section */}
@@ -47,7 +48,7 @@ const Header = () => {
                 <Link
                   key={index}
                   href={link.href}
-                  className={`font-medium text-sm uppercase tracking-wide transition-colors duration-200 ${
+                  className={`font-medium text-md capitalize tracking-wide transition-colors duration-200 ${
                     isActive
                       ? "text-[#2CA58D] border-b-2 border-[#2CA58D] pb-1"
                       : "text-gray-700 hover:text-[#2CA58D]"
@@ -89,7 +90,7 @@ const Header = () => {
               onClick={openModal}
               className="bg-[#2CA58D] text-white px-4 py-2 rounded-lg text-md font-bold hover:bg-[#2CA58D]/90 transition-all duration-200 hover:shadow-md hover:cursor-pointer"
             >
-              Book an Appointment
+              Book a Service
             </button>
           </div>
 
@@ -169,7 +170,7 @@ const Header = () => {
                 onClick={openModal}
                 className="block w-full text-center bg-[#2CA58D] text-white px-4 py-2 rounded-lg mt-2 hover:bg-[#2CA58D]/90 transition-colors duration-200"
               >
-                Book an Appointment
+                Book a Service
               </button>
             </div>
           </div>
