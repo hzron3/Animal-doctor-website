@@ -205,7 +205,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-99 p-4">
-      <div className="bg-white rounded-xl shadow-xl p-4 sm:p-6 md:p-8 w-full max-w-[95%] sm:max-w-[90%] md:max-w-[1000px] max-h-[95vh] overflow-y-auto relative">
+      <div className="bg-white rounded-xl shadow-xl p-4 sm:p-6 md:p-8 w-full max-w-[95%] md:max-w-[1000px] max-h-[85vh] overflow-y-auto relative">
         <button
           onClick={handleClose}
           className="absolute top-4 right-4 z-10 bg-white rounded-full p-2 shadow-md hover:shadow-lg transition-all duration-200 text-gray-600 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#2CA58D] focus:ring-offset-2 hover:cursor-pointer"
@@ -282,7 +282,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
         ) : (
           <>
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 mb-2">
-              Book an Appointment
+              Book a Service
             </h3>
             <p className="text-sm sm:text-base text-gray-600 mb-6">
               Fill in your details below, and our team will reach out to confirm
