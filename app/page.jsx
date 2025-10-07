@@ -67,10 +67,10 @@ const Home = () => {
 
         {/* Main content */}
         <div className="w-full max-w-6xl text-start relative z-10 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-white text-3xl sm:text-5xl md:text-6xl font-bold leading-tight animate-fadeIn drop-shadow-lg">
+          <h1 className="text-white text-center md:text-left text-3xl md:text-5xl font-bold leading-tight animate-fadeIn drop-shadow-lg">
             Compassionate Care for Your Pets
           </h1>
-          <p className="text-gray-200 text-base  sm:text-lg md:text-xl py-4 leading-relaxed animate-slideUp delay-100">
+          <p className="text-gray-200 text-base  sm:text-lg md:text-xl py-4 leading-relaxed animate-slideUp delay-100 text-center md:text-left">
             At{" "}
             <span className="font-semibold text-[#2CA58D]">
               The Animal Doctor
@@ -80,13 +80,13 @@ const Home = () => {
             provide exceptional veterinary care for dogs, cats, and all beloved
             pets.
           </p>
-          <p className="text-[#2CA58D] text-base sm:text-xl md:text-[22px] font-medium italic animate-slideUp delay-200 drop-shadow-md">
+          <p className="text-[#2CA58D] text-base sm:text-xl md:text-[22px] font-medium italic animate-slideUp delay-200 drop-shadow-md text-center md:text-left">
             "Because pets are family."
           </p>
-          <div className="mt-3 sm:mt-4 md:mt-6">
+          <div className="mt-3 sm:mt-4 md:mt-6 text-center md:text-left">
             <Link
               href={"/about-us#our-story"}
-              className="text-base  sm:text-lg md:text-[20px] px-4 sm:px-6 py-2 sm:py-3 bg-[#2CA58D] rounded-lg text-white hover:bg-[#06ad9f] hover:scale-105 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl"
+              className="text-base  sm:text-lg md:text-[20px] px-4 sm:px-6 py-2 sm:py-3 bg-[#2CA58D] rounded-lg text-white hover:bg-[#06ad9f] hover:scale-105 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl "
             >
               Discover Our Story
             </Link>
@@ -94,7 +94,7 @@ const Home = () => {
         </div>
 
         {/* Stats */}
-        <div className="w-full max-w-6xl absolute bottom-2  sm:bottom-4 md:bottom-6 lg:bottom-10 flex flex-wrap justify-center gap-2  sm:gap-4 md:gap-6 lg:gap-12 z-10 px-2 sm:px-4">
+        <div className="hidden w-full max-w-6xl absolute bottom-2  sm:bottom-4 md:bottom-6 lg:bottom-10 md:flex flex-wrap justify-center gap-2  sm:gap-4 md:gap-6 lg:gap-12 z-10 px-2 sm:px-4">
           <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px] sm:min-w-[100px]">
             <svg
               className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
@@ -202,7 +202,7 @@ const Home = () => {
         <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto  grid md:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-6">
+            <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-6 text-center md:text-left">
               About <span className="text-[#2CA58D]">The Animal Doctor</span>
             </h2>
             <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6">

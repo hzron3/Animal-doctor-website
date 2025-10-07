@@ -108,10 +108,10 @@ const AboutUs = () => {
       <section className="pb-12 pt-36 relative">
         <div className="w-full max-w-[90%] sm:max-w-[85%] lg:max-w-[80%]  mx-auto">
           <div className="w-full justify-start items-center grid lg:grid-cols-2 grid-cols-1">
-            <div className="w-full lg:justify-start justify-center items-start flex">
-              <div className="sm:w-[650px] w-full sm:h-[500px] h-full sm:bg-gray-100 rounded-2xl sm:border border-gray-200 relative">
+            <div className="w-full lg:justify-start justify-center items-start flex ">
+              <div className="md:w-[650px] w-full md:h-[500px] h-full md:bg-gray-100 rounded-2xl md:border border-gray-200 md:mr-6 ">
                 <img
-                  className="sm:mt-4 sm:ml-4 w-full h-full rounded-2xl object-cover"
+                  className="md:p-4 w-full h-full rounded-2xl object-cover"
                   src="https://placedog.net/500x500?id=224"
                   alt="Veterinary team with pets"
                 />
