@@ -45,12 +45,12 @@ const ContactUs = () => {
                 {
                   icon: PhoneIcon,
                   title: "Phone",
-                  content: "+254 721 920 713",
+                  content: "+254 745 545 270",
                 },
                 {
                   icon: EnvelopeIcon,
                   title: "Email",
-                  content: "info@animaldoctor.co.ke",
+                  content: "theanimaldoctor24@gmail.com",
                 },
               ].map((item, index) => (
                 <div

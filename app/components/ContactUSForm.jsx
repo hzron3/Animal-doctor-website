@@ -83,7 +83,7 @@ const ContactUSForm = () => {
             className={`w-full px-4 py-2 rounded-lg border ${
               errors.lastName ? "border-red-500" : "border-gray-300"
             } focus:ring-2 focus:ring-[#556a2d]`}
-            placeholder="Doe"
+            placeholder="Mark"
           />
           {errors.lastName && (
             <p className="text-red-500 text-xs">{errors.lastName}</p>
