@@ -67,23 +67,23 @@ const Home = () => {
 
         {/* Main content */}
         <div className="w-full max-w-6xl text-start relative z-10 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-white text-center md:text-left text-3xl md:text-5xl font-bold leading-tight animate-fadeIn drop-shadow-lg">
-            Compassionate Care for Your Pets
-          </h1>
-          <p className="text-gray-200 text-base  sm:text-lg md:text-xl py-4 leading-relaxed animate-slideUp delay-100 text-center md:text-left">
-            At{" "}
-            <span className="font-semibold text-[#556a2d]">
-              The Animal Doctor
+          {/* Hashtag badge */}
+          <div className="mb-4 flex justify-center md:justify-start">
+            <span className="inline-block bg-[#556a2d]/20 text-[#dfeed1] text-lg sm:text-xl text-white px-3 py-1 rounded-full text-sm font-semibold tracking-wide">
+              #ForEveryKenyanPet
             </span>
-            , we are dedicated to keeping your furry friends healthy and happy.
-            From routine checkups to advanced treatments, our mission is to
-            provide exceptional veterinary care for dogs, cats, and all beloved
-            pets.
-          </p>
-          <p className="text-[#556a2d] text-base sm:text-xl md:text-[22px] font-medium italic animate-slideUp delay-200 drop-shadow-md text-center md:text-left">
-            "Because pets are family."
-          </p>
-          <div className="mt-3 sm:mt-4 md:mt-6 text-center md:text-left">
+          </div>
+
+          {/* Combined title + tagline */}
+          <h1 className="text-center md:text-left text-white text-4xl sm:text-6xl md:text-7xl font-extrabold leading-tight drop-shadow-2xl">
+            <span className="block text-[#dfeed1]">
+              The Animal Doctor <br className="flex sm:hidden" />
+              <span className="text-white font-light">
+                #Home of Healthy Pets
+              </span>
+            </span>
+          </h1>
+          <div className="mt-6 md:mt-8 text-center md:text-left">
             <Link
               href={"/about-us#our-story"}
               className="text-base  sm:text-lg md:text-[20px] px-4 sm:px-6 py-2 sm:py-3 bg-[#556a2d] rounded-lg text-white hover:bg-[#556a2d]/80 hover:scale-105 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl "

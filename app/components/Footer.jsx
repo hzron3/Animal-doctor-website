@@ -25,38 +25,38 @@ const Footer = () => {
 
           {/* Navigation */}
           <ul className="text-sm md:text-lg grid grid-cols-3 gap-7 md:grid-cols-6 md:gap-12 transition-all duration-500 py-6 mb-8 border-b border-gray-200 justify-space-around text-center">
-            <Link href="/" className="text-[#556a2d] hover:text-[#38B2AC]">
+            <Link href="/" className="text-[#556a2d] hover:text-[#556a2d]/80">
               Home
             </Link>
             <Link
               href="/about-us"
-              className="text-[#556a2d] hover:text-[#38B2AC]"
+              className="text-[#556a2d] hover:text-[#556a2d]/80"
             >
               About Us
             </Link>
             <Link
               href="/our-services"
-              className="text-[#556a2d] hover:text-[#38B2AC]"
+              className="text-[#556a2d] hover:text-[#556a2d]/80"
             >
               Our Services
             </Link>
             <li>
               <a
                 href="/our-gallery"
-                className="text-[#556a2d] hover:text-[#38B2AC]"
+                className="text-[#556a2d] hover:text-[#556a2d]/80"
               >
                 Our Gallery
               </a>
             </li>
             <Link
               href="/our-blogs"
-              className="text-[#556a2d] hover:text-[#38B2AC]"
+              className="text-[#556a2d] hover:text-[#556a2d]/80"
             >
-              BlogS
+              Our Blogs
             </Link>
             <Link
               href="/contact-us"
-              className="text-[#556a2d] hover:text-[#38B2AC]"
+              className="text-[#556a2d] hover:text-[#556a2d]/80"
             >
               Contact Us
             </Link>
@@ -66,7 +66,7 @@ const Footer = () => {
           <div className="flex space-x-8 justify-center items-center mb-10">
             <Link
               href="#"
-              className="text-[#556a2d] hover:text-[#556a2d]/90 transition-all duration-300"
+              className="text-[#556a2d] hover:text-[#556a2d]/80 transition-all duration-300"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/556a2d/facebook-new.png"
@@ -76,7 +76,7 @@ const Footer = () => {
             </Link>
             <Link
               href="#"
-              className="text-[#556a2d] hover:text-[#556a2d]/90 transition-all duration-300"
+              className="text-[#556a2d] hover:text-[#556a2d]/80 transition-all duration-300"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/556a2d/instagram-new.png"
@@ -86,7 +86,7 @@ const Footer = () => {
             </Link>
             <Link
               href="#"
-              className="text-[#556a2d] hover:text-[#556a2d]/90 transition-all duration-300"
+              className="text-[#556a2d] hover:text-[#556a2d]/80 transition-all duration-300"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/556a2d/twitterx.png"
@@ -96,7 +96,7 @@ const Footer = () => {
             </Link>
             <Link
               href="#"
-              className="text-[#556a2d] hover:text-[#556a2d]/90 transition-all duration-300"
+              className="text-[#556a2d] hover:text-[#556a2d]/80 transition-all duration-300"
             >
               <img
                 src="https://img.icons8.com/ios-filled/50/556a2d/whatsapp.png"
