@@ -3,7 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
+import {
+  PhoneIcon,
+  EnvelopeIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
 import AppointmentModal from "./AppointmentModal";
 
 const Header = () => {
@@ -39,6 +43,17 @@ const Header = () => {
                 theanimaldoctor24@gmail.com
               </Link>
             </div>
+
+            <div className="flex items-center space-x-2 group">
+              <MapPinIcon className="h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
+              <Link
+                href="https://maps.app.goo.gl/YN9GiRkCyW69S1wSA"
+                className="font-medium hover:underline transition-all duration-200 text-md"
+              >
+                House A 2nd Floor, South B, Nairobi
+              </Link>
+            </div>
+
             <div className="flex items-center  space-x-2 group">
               <PhoneIcon className="h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
               <Link
@@ -73,15 +88,15 @@ const Header = () => {
             <div className="md:hidden flex flex-col items-center space-x-3">
               <Link
                 href="tel:+254745545270"
-                className="text-gray-800 hover:text-[#556a2d]"
+                className="text-gray-800 hover:text-[#556a2d] text-base text-center"
               >
                 +254 745 545 270
               </Link>
               <Link
-                href="mailto:theanimaldoctor24@gmail.com"
-                className="text-gray-800 hover:text-[#556a2d]"
+                href="https://maps.app.goo.gl/YN9GiRkCyW69S1wSA"
+                className="text-gray-800 hover:text-[#556a2d] text-base text-center"
               >
-                theanimaldoctor24@gmail.com
+                House A 2nd Floor, South B, Nairobi
               </Link>
             </div>
 
