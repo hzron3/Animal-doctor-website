@@ -155,7 +155,7 @@ export default function OurGallery() {
       {/* Header Section */}
       <section className="bg-white pb-8 pt-30 md:pt-32">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] text-center">
-          <h6 className="text-sm text-[#2CA58D] font-normal uppercase tracking-wider mb-2">
+          <h6 className="text-sm text-[#556a2d] font-normal uppercase tracking-wider mb-2">
             Gallery
           </h6>
           <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -178,7 +178,7 @@ export default function OurGallery() {
               onClick={() => setFilter(category.id)}
               className={`px-4 py-2 font-medium text-sm rounded-full transition-all duration-300 hover:cursor-pointer ${
                 filter === category.id
-                  ? "bg-[#2CA58D] text-white shadow-lg"
+                  ? "bg-[#556a2d] text-white shadow-lg"
                   : "bg-gray-100 text-gray-700 hover:bg-gray-200"
               }`}
             >
@@ -212,7 +212,7 @@ export default function OurGallery() {
                   </div>
                 </div>
                 <div className="p-4">
-                  <span className="inline-block px-3 py-1 bg-[#2CA58D]/10 text-[#2CA58D] text-xs font-medium rounded-full">
+                  <span className="inline-block px-3 py-1 bg-[#556a2d]/10 text-[#556a2d] text-xs font-medium rounded-full">
                     {categories.find((cat) => cat.id === image.category)?.name}
                   </span>
                 </div>
@@ -296,7 +296,7 @@ export default function OurGallery() {
             </button>
 
             {/* Main Image */}
-            <div className="relative w-full h-[50vh] mb-4">
+            <div className="relative w-full my-auto h-[40vh] md:h-[50vh] mb-4">
               <Image
                 src={currentImage.image}
                 alt={currentImage.alt}
@@ -315,7 +315,7 @@ export default function OurGallery() {
                   {currentImage.title}
                 </h3>
                 <p className="text-gray-300 mb-4">{currentImage.description}</p>
-                <span className="inline-block px-3 py-1 bg-[#2CA58D]/20 text-[#2CA58D] text-sm font-medium rounded-full">
+                <span className="inline-block px-3 py-1 bg-[#556a2d]/20 text-[#556a2d] text-sm font-medium rounded-full">
                   {
                     categories.find((cat) => cat.id === currentImage.category)
                       ?.name
@@ -331,7 +331,7 @@ export default function OurGallery() {
                     onClick={() => setSelectedIndex(idx)}
                     className={`relative flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all hover:cursor-pointer ${
                       idx === selectedIndex
-                        ? "border-white ring-2 ring-[#2CA58D]"
+                        ? "border-white ring-2 ring-[#556a2d]"
                         : "border-transparent"
                     }`}
                   >
@@ -354,7 +354,7 @@ export default function OurGallery() {
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%]  text-center">
           <Link
             href="/services"
-            className="inline-flex items-center px-8 py-4 bg-[#2CA58D] hover:bg-[#1a7461] text-white font-medium rounded-lg transition-all duration-300 shadow-lg"
+            className="inline-flex items-center px-8 py-4 bg-[#556a2d] hover:bg-[#1a7461] text-white font-medium rounded-lg transition-all duration-300 shadow-lg"
           >
             Book a Service
             <svg

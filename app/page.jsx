@@ -12,37 +12,37 @@ import TestimonialsAndCTA from "./components/TestimonialAndCTA";
 const Home = () => {
   const services = [
     {
-      icon: <HeartIcon className="w-8 h-8 text-[#2CA58D]" />,
+      icon: <HeartIcon className="w-8 h-8 text-[#556a2d]" />,
       title: "General Checkups",
       description:
         "Comprehensive health checkups to keep your pets happy and healthy.",
     },
     {
-      icon: <ShieldCheckIcon className="w-8 h-8 text-[#2CA58D]" />,
+      icon: <ShieldCheckIcon className="w-8 h-8 text-[#556a2d]" />,
       title: "Vaccinations",
       description:
         "Protect your pets with essential vaccinations and preventive care.",
     },
     {
-      icon: <BeakerIcon className="w-8 h-8 text-[#2CA58D]" />,
+      icon: <BeakerIcon className="w-8 h-8 text-[#556a2d]" />,
       title: "Emergency Care",
       description:
         "Round-the-clock urgent medical attention for unexpected situations.",
     },
     {
-      icon: <ScissorsIcon className="w-8 h-8 text-[#2CA58D]" />,
+      icon: <ScissorsIcon className="w-8 h-8 text-[#556a2d]" />,
       title: "Grooming",
       description:
         "Professional grooming services to keep pets clean, neat, and stylish.",
     },
     {
-      icon: <SparklesIcon className="w-8 h-8 text-[#2CA58D]" />,
+      icon: <SparklesIcon className="w-8 h-8 text-[#556a2d]" />,
       title: "Surgery",
       description:
         "Safe and modern surgical procedures handled by experienced veterinarians.",
     },
     {
-      icon: <ChatBubbleLeftEllipsisIcon className="w-8 h-8 text-[#2CA58D]" />,
+      icon: <ChatBubbleLeftEllipsisIcon className="w-8 h-8 text-[#556a2d]" />,
       title: "Nutrition Plans",
       description:
         "Personalized diet and nutrition guidance for optimal pet health.",
@@ -72,7 +72,7 @@ const Home = () => {
           </h1>
           <p className="text-gray-200 text-base  sm:text-lg md:text-xl py-4 leading-relaxed animate-slideUp delay-100 text-center md:text-left">
             At{" "}
-            <span className="font-semibold text-[#2CA58D]">
+            <span className="font-semibold text-[#556a2d]">
               The Animal Doctor
             </span>
             , we are dedicated to keeping your furry friends healthy and happy.
@@ -80,13 +80,13 @@ const Home = () => {
             provide exceptional veterinary care for dogs, cats, and all beloved
             pets.
           </p>
-          <p className="text-[#2CA58D] text-base sm:text-xl md:text-[22px] font-medium italic animate-slideUp delay-200 drop-shadow-md text-center md:text-left">
+          <p className="text-[#556a2d] text-base sm:text-xl md:text-[22px] font-medium italic animate-slideUp delay-200 drop-shadow-md text-center md:text-left">
             "Because pets are family."
           </p>
           <div className="mt-3 sm:mt-4 md:mt-6 text-center md:text-left">
             <Link
               href={"/about-us#our-story"}
-              className="text-base  sm:text-lg md:text-[20px] px-4 sm:px-6 py-2 sm:py-3 bg-[#2CA58D] rounded-lg text-white hover:bg-[#06ad9f] hover:scale-105 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl "
+              className="text-base  sm:text-lg md:text-[20px] px-4 sm:px-6 py-2 sm:py-3 bg-[#556a2d] rounded-lg text-white hover:bg-[#556a2d]/80 hover:scale-105 transition-all duration-300 ease-in-out shadow-md hover:shadow-xl "
             >
               Discover Our Story
             </Link>
@@ -95,9 +95,9 @@ const Home = () => {
 
         {/* Stats */}
         <div className="hidden w-full max-w-6xl absolute bottom-2  sm:bottom-4 md:bottom-6 lg:bottom-10 md:flex flex-wrap justify-center gap-2  sm:gap-4 md:gap-6 lg:gap-12 z-10 px-2 sm:px-4">
-          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px] sm:min-w-[100px]">
+          <div className="flex flex-col items-center text-center border-r border-[#556a2d]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px] sm:min-w-[100px]">
             <svg
-              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
+              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#556a2d] mb-1 sm:mb-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -117,9 +117,9 @@ const Home = () => {
             </span>
           </div>
 
-          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px]  sm:min-w-[100px]">
+          <div className="flex flex-col items-center text-center border-r border-[#556a2d]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px]  sm:min-w-[100px]">
             <svg
-              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
+              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#556a2d] mb-1 sm:mb-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -145,9 +145,9 @@ const Home = () => {
             </span>
           </div>
 
-          <div className="flex flex-col items-center text-center border-r border-[#2CA58D]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px]  sm:min-w-[100px]">
+          <div className="flex flex-col items-center text-center border-r border-[#556a2d]/50 pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px]  sm:min-w-[100px]">
             <svg
-              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
+              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#556a2d] mb-1 sm:mb-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -175,7 +175,7 @@ const Home = () => {
 
           <div className="flex flex-col items-center text-center pr-2  sm:pr-4 md:pr-6 last:border-r-0 min-w-[60px]  sm:min-w-[100px]">
             <svg
-              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#2CA58D] mb-1 sm:mb-2"
+              className="w-5 h-5  sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#556a2d] mb-1 sm:mb-2"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -203,11 +203,11 @@ const Home = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-xl md:text-3xl font-bold text-gray-900 mb-6 text-center md:text-left">
-              About <span className="text-[#2CA58D]">The Animal Doctor</span>
+              About <span className="text-[#556a2d]">The Animal Doctor</span>
             </h2>
             <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6">
               At{" "}
-              <span className="font-semibold text-[#2CA58D]">
+              <span className="font-semibold text-[#556a2d]">
                 The Animal Doctor
               </span>
               , we believe pets are more than just animals – they are family.
@@ -225,7 +225,7 @@ const Home = () => {
               beloved companions.
             </p>
             <Link href="/about-us">
-              <button className="bg-[#2CA58D] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#249177] transition-colors duration-200 inline-flex items-center hover:cursor-pointer">
+              <button className="bg-[#556a2d] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#556a2d]/80 transition-colors duration-200 inline-flex items-center hover:cursor-pointer">
                 Learn More
                 <svg
                   className="ml-2 h-4 w-4"
@@ -260,7 +260,7 @@ const Home = () => {
         <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto text-center">
           {/* Section Header */}
           <h2 className="text-xl md:text-3xl font-bold mb-4 text-gray-900">
-            Our <span className="text-[#2CA58D]">Services</span>
+            Our <span className="text-[#556a2d]">Services</span>
           </h2>
           <p className="text-gray-600 mb-12">
             From checkups to emergency care, we offer a wide range of veterinary
@@ -283,7 +283,7 @@ const Home = () => {
                 </p>
                 {/* <Link
                   href="/services"
-                  className="text-[#2CA58D] font-medium hover:underline inline-flex items-center"
+                  className="text-[#556a2d] font-medium hover:underline inline-flex items-center"
                 >
                   Learn more →
                 </Link> */}
@@ -292,7 +292,7 @@ const Home = () => {
           </div>
           <div className="mt-12">
             <Link href="/our-services">
-              <button className="bg-[#2CA58D] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#249177] transition-colors duration-200 inline-flex items-center hover:cursor-pointer">
+              <button className="bg-[#556a2d] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#556a2d]/90 transition-colors duration-200 inline-flex items-center hover:cursor-pointer">
                 View All Services
                 <svg
                   className="ml-2 h-4 w-4"

@@ -46,7 +46,7 @@ const TestimonialsAndCTA = () => {
   return (
     <div className="max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] mx-auto bg-gray-50 py-8">
       {/* Call to Action */}
-      <div className="bg-[#2CA58D] text-white rounded-2xl shadow-xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div className="bg-[#556a2d] text-white rounded-2xl shadow-xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
           <h3 className="text-xl md:text-3xl  font-bold mb-3">
             Want Us to Call You Back?
@@ -58,7 +58,7 @@ const TestimonialsAndCTA = () => {
         </div>
         <Link
           href="/contact-us"
-          className="bg-white text-[#2CA58D] px-6 py-3 md:px-8 md:py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+          className="bg-white text-[#556a2d] px-6 py-3 md:px-8 md:py-4 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
         >
           Request a Callback
         </Link>
@@ -67,7 +67,7 @@ const TestimonialsAndCTA = () => {
       {/* Testimonials */}
       <div className=" mx-auto text-center mt-16">
         <h2 className="text-xl sm:text-3xl font-bold mb-4 text-gray-900">
-          What Our <span className="text-[#2CA58D]">Clients Say</span>
+          What Our <span className="text-[#556a2d]">Clients Say</span>
         </h2>
 
         <p className="text-gray-600 mb-8 md:mb-12 text-base md:text-lg">
@@ -81,7 +81,7 @@ const TestimonialsAndCTA = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-white shadow-lg rounded-2xl p-6 md:p-8 text-left border-t-4 border-[#2CA58D] hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+              className="bg-white shadow-lg rounded-2xl p-6 md:p-8 text-left border-t-4 border-[#556a2d] hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (

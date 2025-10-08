@@ -120,11 +120,11 @@ const AboutUs = () => {
             <div className="w-full flex-col justify-center lg:items-start items-center gap-6 inline-flex">
               <div className="w-full flex-col justify-center items-start gap-6 flex">
                 <div className="flex-col justify-start lg:items-start items-center gap-3 flex">
-                  <h6 className="text-sm text-[#2CA58D] font-normal leading-relaxed">
+                  <h6 className="text-sm text-[#556a2d] font-normal leading-relaxed">
                     Our Journey
                   </h6>
                   <div className="w-full flex-col justify-start lg:items-start items-center gap-2 flex">
-                    <h2 className="text-[#2CA58D] text-xl md:text-3xl font-bold leading-normal lg:text-start text-center">
+                    <h2 className="text-[#556a2d] text-xl md:text-3xl font-bold leading-normal lg:text-start text-center">
                       Pioneering Compassionate Veterinary Excellence
                     </h2>
                     <p className="text-gray-600 text-base font-normal leading-relaxed lg:text-start text-center">
@@ -144,7 +144,7 @@ const AboutUs = () => {
                         <h4 className="text-gray-900 text-xl font-bold leading-8">
                           {stat.value}
                         </h4>
-                        <p className="text-[#2CA58D] text-base font-semibold">
+                        <p className="text-[#556a2d] text-base font-semibold">
                           {stat.label}
                         </p>
                         <p className="text-gray-600 text-base font-normal leading-relaxed">
@@ -162,7 +162,7 @@ const AboutUs = () => {
                         <h4 className="text-gray-900 text-xl font-bold leading-8">
                           {stat.value}
                         </h4>
-                        <p className="text-[#2CA58D] text-base font-semibold">
+                        <p className="text-[#556a2d] text-base font-semibold">
                           {stat.label}
                         </p>
                         <p className="text-gray-600 text-base font-normal leading-relaxed">
@@ -184,7 +184,7 @@ const AboutUs = () => {
           <div className="mx-auto grid grid-cols-1 gap-x-6 gap-y-12 sm:gap-y-16  lg:grid-cols-2">
             <div className="lg:pt-2 lg:pr-6">
               <div>
-                <h2 className="text-sm text-[#2CA58D] font-semibold capitalize tracking-widest mb-1 text-center lg:text-left">
+                <h2 className="text-sm text-[#556a2d] font-semibold capitalize tracking-widest mb-1 text-center lg:text-left">
                   What Sets Us Apart
                 </h2>
                 <h2 className="text-xl md:text-3xl font-bold tracking-tight text-gray-900 text-center lg:text-left">
@@ -201,7 +201,7 @@ const AboutUs = () => {
                       <dt className="inline font-semibold text-gray-900">
                         <feature.icon
                           aria-hidden="true"
-                          className="absolute top-1 left-1 h-5 w-5 text-[#2CA58D]"
+                          className="absolute top-1 left-1 h-5 w-5 text-[#556a2d]"
                         />
                         {feature.name}
                       </dt>
@@ -226,7 +226,7 @@ const AboutUs = () => {
       <section className="py-12 bg-gray-50">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] ">
           <div className="mb-10 text-center">
-            <span className="py-1 px-4 bg-[#2CA58D]/10 rounded-full text-sm font-medium text-[#2CA58D] text-center">
+            <span className="py-1 px-4 bg-[#556a2d]/10 rounded-full text-sm font-medium text-[#556a2d] text-center">
               Features
             </span>
             <h2 className="text-xl md:text-3xl text-center font-bold text-gray-900 py-4">
@@ -240,9 +240,9 @@ const AboutUs = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 ease-in-out text-center">
-              <div className="bg-[#2CA58D]/10 rounded-full flex justify-center items-center mb-4 w-16 h-16 mx-auto">
+              <div className="bg-[#556a2d]/10 rounded-full flex justify-center items-center mb-4 w-16 h-16 mx-auto">
                 <svg
-                  className="stroke-[#2CA58D]"
+                  className="stroke-[#556a2d]"
                   width="24"
                   height="24"
                   viewBox="0 0 30 30"
@@ -267,9 +267,9 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 ease-in-out text-center">
-              <div className="bg-[#2CA58D]/10 rounded-full flex justify-center items-center mb-4 w-16 h-16 mx-auto">
+              <div className="bg-[#556a2d]/10 rounded-full flex justify-center items-center mb-4 w-16 h-16 mx-auto">
                 <svg
-                  className="stroke-[#2CA58D]"
+                  className="stroke-[#556a2d]"
                   width="24"
                   height="24"
                   viewBox="0 0 30 30"
@@ -307,9 +307,9 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 ease-in-out text-center">
-              <div className="bg-[#2CA58D]/10 rounded-full flex justify-center items-center mb-4 w-16 h-16 mx-auto">
+              <div className="bg-[#556a2d]/10 rounded-full flex justify-center items-center mb-4 w-16 h-16 mx-auto">
                 <svg
-                  className="stroke-[#2CA58D]"
+                  className="stroke-[#556a2d]"
                   width="24"
                   height="24"
                   viewBox="0 0 30 30"
@@ -333,9 +333,9 @@ const AboutUs = () => {
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 ease-in-out text-center">
-              <div className="bg-[#2CA58D]/10 rounded-full flex justify-center items-center mb-4 w-16 h-16 mx-auto">
+              <div className="bg-[#556a2d]/10 rounded-full flex justify-center items-center mb-4 w-16 h-16 mx-auto">
                 <svg
-                  className="stroke-[#2CA58D]"
+                  className="stroke-[#556a2d]"
                   width="24"
                   height="24"
                   viewBox="0 0 30 30"
@@ -367,7 +367,7 @@ const AboutUs = () => {
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] ">
           {/* Header */}
           <div className="mb-16 text-center">
-            <span className="inline-block py-2 px-5 bg-[#2CA58D]/10 rounded-full text-sm font-semibold text-[#2CA58D] tracking-wide">
+            <span className="inline-block py-2 px-5 bg-[#556a2d]/10 rounded-full text-sm font-semibold text-[#556a2d] tracking-wide">
               Our Story
             </span>
             <h2 className="mt-5 text-xl md:text-3xl font-bold text-gray-900 leading-tight">
@@ -387,8 +387,8 @@ const AboutUs = () => {
                 className="flex flex-col bg-white rounded-2xl border border-gray-100 shadow-md hover:shadow-xl transition-all duration-300"
               >
                 <div className="flex items-center gap-3 px-6 pt-6">
-                  <div className="bg-[#2CA58D]/10 rounded-xl p-2 flex-shrink-0">
-                    <span className="text-[#2CA58D] font-semibold text-base">
+                  <div className="bg-[#556a2d]/10 rounded-xl p-2 flex-shrink-0">
+                    <span className="text-[#556a2d] font-semibold text-base">
                       {index + 1}
                     </span>
                   </div>
@@ -412,7 +412,7 @@ const AboutUs = () => {
 
           {/* CTA Section */}
           <div className="mt-24 text-center">
-            <div className="bg-gradient-to-r from-[#2CA58D] to-[#239b80] py-16 px-8 rounded-2xl text-white shadow-lg">
+            <div className="bg-gradient-to-r from-[#556a2d] to-[#556a2d]/90 py-16 px-8 rounded-2xl text-white shadow-lg">
               <h2 className="text-xl md:text-3xl font-extrabold mb-4">
                 Ready to Give Your Pet the Best Care?
               </h2>
@@ -420,7 +420,7 @@ const AboutUs = () => {
                 Join thousands of happy pet owners who trust The Animal Doctor.
               </p>
               <Link href="/contact-us">
-                <button className="bg-white text-[#2CA58D] px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5 hover:cursor-pointer">
+                <button className="bg-white text-[#556a2d] px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-0.5 hover:cursor-pointer">
                   Get Started Today
                 </button>
               </Link>
@@ -445,8 +445,8 @@ const AboutUs = () => {
                 key={index}
                 className="bg-white rounded-2xl shadow-sm hover:shadow-md transition p-6 flex flex-col items-center text-center"
               >
-                <div className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#2CA58D]/10 mb-4">
-                  <value.icon className="h-8 w-8 text-[#2CA58D]" />
+                <div className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#556a2d]/10 mb-4">
+                  <value.icon className="h-8 w-8 text-[#556a2d]" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   {value.title}

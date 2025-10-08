@@ -7,7 +7,7 @@ export const metadata = {
   title: "The Animal Doctor",
   // description: "Beyond The Unknown, To The Future",
   icons: {
-    icon: "/Animal_doc_icon.png",
+    icon: "/animal-doctor-logo.png",
   },
 };
 

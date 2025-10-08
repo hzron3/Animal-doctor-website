@@ -8,7 +8,7 @@ const WhatsAppButton = () => {
   const [message, setMessage] = useState("");
   const [hasPlayedSound, setHasPlayedSound] = useState(false);
   const audioRef = useRef(null);
-  const phoneNumber = "+254799118283";
+  const phoneNumber = "+254721920713";
 
   useEffect(() => {
     const audio = audioRef.current;

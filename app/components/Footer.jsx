@@ -10,51 +10,53 @@ const Footer = () => {
           {/* Logo */}
           <div className="max-w-3xl mx-auto flex justify-center md:mb-6">
             <a href="/" className="flex items-center space-x-3">
-              <img
-                src="/Animal_doc_Logo.png"
+              <Image
+                src="/animal-doctor-logo.png"
                 alt="Animal Doctor"
+                height={500}
+                width={500}
                 className="h-10 w-auto"
               />
-              <span className="text-xl md:text-2xl font-bold text-[#2CA58D]/90">
-                Animal Doctor
+              <span className="text-xl md:text-2xl font-bold text-[#556a2d]/90">
+                The Animal Doctor
               </span>
             </a>
           </div>
 
           {/* Navigation */}
           <ul className="text-sm md:text-lg grid grid-cols-3 gap-7 md:grid-cols-6 md:gap-12 transition-all duration-500 py-6 mb-8 border-b border-gray-200 justify-space-around text-center">
-            <Link href="/" className="text-[#2CA58D] hover:text-[#38B2AC]">
+            <Link href="/" className="text-[#556a2d] hover:text-[#38B2AC]">
               Home
             </Link>
             <Link
               href="/about-us"
-              className="text-[#2CA58D] hover:text-[#38B2AC]"
+              className="text-[#556a2d] hover:text-[#38B2AC]"
             >
               About Us
             </Link>
             <Link
               href="/our-services"
-              className="text-[#2CA58D] hover:text-[#38B2AC]"
+              className="text-[#556a2d] hover:text-[#38B2AC]"
             >
               Our Services
             </Link>
             <li>
               <a
                 href="/our-gallery"
-                className="text-[#2CA58D] hover:text-[#38B2AC]"
+                className="text-[#556a2d] hover:text-[#38B2AC]"
               >
                 Our Gallery
               </a>
             </li>
             <Link
               href="/our-blogs"
-              className="text-[#2CA58D] hover:text-[#38B2AC]"
+              className="text-[#556a2d] hover:text-[#38B2AC]"
             >
               BlogS
             </Link>
             <Link
               href="/contact-us"
-              className="text-[#2CA58D] hover:text-[#38B2AC]"
+              className="text-[#556a2d] hover:text-[#38B2AC]"
             >
               Contact Us
             </Link>
@@ -64,40 +66,40 @@ const Footer = () => {
           <div className="flex space-x-8 justify-center items-center mb-10">
             <Link
               href="#"
-              className="text-[#2CA58D] hover:text-[#2CA58D]/90 transition-all duration-300"
+              className="text-[#556a2d] hover:text-[#556a2d]/90 transition-all duration-300"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/2CA58D/facebook-new.png"
+                src="https://img.icons8.com/ios-filled/50/556a2d/facebook-new.png"
                 alt="Facebook"
                 className="w-6 h-6"
               />
             </Link>
             <Link
               href="#"
-              className="text-[#2CA58D] hover:text-[#2CA58D]/90 transition-all duration-300"
+              className="text-[#556a2d] hover:text-[#556a2d]/90 transition-all duration-300"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/2CA58D/instagram-new.png"
+                src="https://img.icons8.com/ios-filled/50/556a2d/instagram-new.png"
                 alt="Instagram"
                 className="w-6 h-6"
               />
             </Link>
             <Link
               href="#"
-              className="text-[#2CA58D] hover:text-[#2CA58D]/90 transition-all duration-300"
+              className="text-[#556a2d] hover:text-[#556a2d]/90 transition-all duration-300"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/2CA58D/twitterx.png"
+                src="https://img.icons8.com/ios-filled/50/556a2d/twitterx.png"
                 alt="Twitter"
                 className="w-6 h-6"
               />
             </Link>
             <Link
               href="#"
-              className="text-[#2CA58D] hover:text-[#2CA58D]/90 transition-all duration-300"
+              className="text-[#556a2d] hover:text-[#556a2d]/90 transition-all duration-300"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/2CA58D/whatsapp.png"
+                src="https://img.icons8.com/ios-filled/50/556a2d/whatsapp.png"
                 alt="WhatsApp"
                 className="w-6 h-6"
               />
