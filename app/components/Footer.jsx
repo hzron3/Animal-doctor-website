@@ -69,9 +69,9 @@ const Footer = () => {
               className="text-[#556a2d] hover:text-[#556a2d]/80 transition-all duration-300"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/556a2d/facebook-new.png"
-                alt="Facebook"
-                className="w-6 h-6"
+                className="h-6 w-6 md:h-8 md:w-8"
+                src="https://img.icons8.com/fluency/48/facebook-new.png"
+                alt="facebook-new"
               />
             </Link>
             <Link
@@ -79,9 +79,9 @@ const Footer = () => {
               className="text-[#556a2d] hover:text-[#556a2d]/80 transition-all duration-300"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/556a2d/instagram-new.png"
-                alt="Instagram"
-                className="w-6 h-6"
+                className="h-6 w-6 md:h-8 md:w-8"
+                src="https://img.icons8.com/color/48/instagram-new--v1.png"
+                alt="instagram-new--v1"
               />
             </Link>
             <Link
@@ -89,9 +89,9 @@ const Footer = () => {
               className="text-[#556a2d] hover:text-[#556a2d]/80 transition-all duration-300"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/556a2d/twitterx.png"
-                alt="Twitter"
-                className="w-6 h-6"
+                className="h-6 w-6 md:h-8 md:w-8"
+                src="https://img.icons8.com/ios-glyphs/30/twitterx--v2.png"
+                alt="twitterx--v2"
               />
             </Link>
             <Link
@@ -99,9 +99,9 @@ const Footer = () => {
               className="text-[#556a2d] hover:text-[#556a2d]/80 transition-all duration-300"
             >
               <img
-                src="https://img.icons8.com/ios-filled/50/556a2d/whatsapp.png"
-                alt="WhatsApp"
-                className="w-6 h-6"
+                className="h-6 w-6 md:h-8 md:w-8"
+                src="https://img.icons8.com/color/48/whatsapp--v1.png"
+                alt="whatsapp--v1"
               />
             </Link>
           </div>

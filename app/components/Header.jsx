@@ -3,7 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
+import {
+  PhoneIcon,
+  EnvelopeIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/outline";
 import AppointmentModal from "./AppointmentModal";
 
 const Header = () => {
@@ -39,6 +43,17 @@ const Header = () => {
                 theanimaldoctor24@gmail.com
               </Link>
             </div>
+
+            <div className="flex items-center space-x-2 group">
+              <MapPinIcon className="h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
+              <Link
+                href="https://maps.app.goo.gl/YN9GiRkCyW69S1wSA"
+                className="font-medium hover:underline transition-all duration-200 text-md"
+              >
+                House A 2nd Floor, South B, Nairobi
+              </Link>
+            </div>
+
             <div className="flex items-center  space-x-2 group">
               <PhoneIcon className="h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
               <Link
@@ -73,15 +88,15 @@ const Header = () => {
             <div className="md:hidden flex flex-col items-center space-x-3">
               <Link
                 href="tel:+254745545270"
-                className="text-gray-800 hover:text-[#556a2d]"
+                className="text-gray-800 hover:text-[#556a2d] text-base text-center"
               >
                 +254 745 545 270
               </Link>
               <Link
-                href="mailto:theanimaldoctor24@gmail.com"
-                className="text-gray-800 hover:text-[#556a2d]"
+                href="https://maps.app.goo.gl/YN9GiRkCyW69S1wSA"
+                className="text-gray-800 hover:text-[#556a2d] text-base text-center"
               >
-                theanimaldoctor24@gmail.com
+                House A 2nd Floor, South B, Nairobi
               </Link>
             </div>
 
@@ -105,11 +120,42 @@ const Header = () => {
               })}
             </nav>
 
-            {/* Desktop Book Button */}
+            {/* Desktop Social & Appointment Button */}
             <div className="hidden md:flex items-center space-x-6">
+              <div className="flex items-center space-x-4">
+                <Link
+                  href="#"
+                  className="text-gray-700 hover:text-[#2CA58D] transition-colors duration-200"
+                >
+                  {/* <img
+                    width="30"
+                    height="30"
+                    src="https://img.icons8.com/ios-glyphs/30/twitterx--v2.png"
+                    alt="twitterx--v2"
+                  /> */}
+
+                  <img
+                    width="30"
+                    height="30"
+                    src="https://img.icons8.com/color/48/instagram-new--v1.png"
+                    alt="instagram-new--v1"
+                  />
+                </Link>
+                <Link
+                  href="#"
+                  className="text-gray-700 hover:text-[#2CA58D] transition-colors duration-200"
+                >
+                  <img
+                    width="30"
+                    height="30"
+                    src="https://img.icons8.com/fluency/48/linkedin.png"
+                    alt="linkedin"
+                  />
+                </Link>
+              </div>
               <button
                 onClick={openModal}
-                className="bg-[#556a2d] text-white px-4 py-2 rounded-lg text-md font-bold hover:bg-[#6b8238] transition-all duration-200 hover:shadow-md hover:cursor-pointer"
+                className="bg-[#556a2d] text-white px-4 py-2 rounded-lg text-md font-bold hover:bg-[#556a2d]/90 transition-all duration-200 hover:shadow-md hover:cursor-pointer"
               >
                 Book a Service
               </button>
@@ -169,6 +215,31 @@ const Header = () => {
                     </Link>
                   );
                 })}
+                <div className="flex space-x-4 px-3 py-2">
+                  <Link href="#" onClick={() => setIsMobileMenuOpen(false)}>
+                    {/* <img
+                      width="20"
+                      height="20"
+                      src="https://img.icons8.com/ios-glyphs/30/twitterx--v2.png"
+                      alt="twitterx--v2"
+                    /> */}
+
+                    <img
+                      width="20"
+                      height="20"
+                      src="https://img.icons8.com/color/48/instagram-new--v1.png"
+                      alt="instagram-new--v1"
+                    />
+                  </Link>
+                  <Link href="#" onClick={() => setIsMobileMenuOpen(false)}>
+                    <img
+                      width="20"
+                      height="20"
+                      src="https://img.icons8.com/fluency/48/linkedin.png"
+                      alt="linkedin"
+                    />
+                  </Link>
+                </div>
                 <button
                   onClick={openModal}
                   className="block w-full text-center bg-[#556a2d] text-white px-4 py-2 rounded-lg mt-2 hover:bg-[#6b8238] transition-colors duration-200"
