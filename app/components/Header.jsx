@@ -32,7 +32,7 @@ const Header = () => {
             <Link href="/" className="flex items-center">
               <Image
                 className="transition-transform hover:scale-105 h-20 w-auto"
-                src="/Animal_doc_Logo.png"
+                src="/animal-doctor-logo.png"
                 height={400}
                 width={400}
                 alt="The Animal Doctor Logo"
@@ -50,8 +50,8 @@ const Header = () => {
                   href={link.href}
                   className={`font-medium text-md capitalize tracking-wide transition-colors duration-200 ${
                     isActive
-                      ? "text-[#2CA58D] border-b-2 border-[#2CA58D] pb-1"
-                      : "text-gray-700 hover:text-[#2CA58D]"
+                      ? "text-[#556a2d] border-b-2 border-[#556a2d] pb-1"
+                      : "text-gray-700 hover:text-[#556a2d]"
                   }`}
                 >
                   {link.label}
@@ -65,7 +65,7 @@ const Header = () => {
             <div className="flex items-center space-x-4">
               <Link
                 href="#"
-                className="text-gray-700 hover:text-[#2CA58D] transition-colors duration-200"
+                className="text-gray-700 hover:text-[#556a2d] transition-colors duration-200"
               >
                 <img
                   width="30"
@@ -76,7 +76,7 @@ const Header = () => {
               </Link>
               <Link
                 href="#"
-                className="text-gray-700 hover:text-[#2CA58D] transition-colors duration-200"
+                className="text-gray-700 hover:text-[#556a2d] transition-colors duration-200"
               >
                 <img
                   width="30"
@@ -88,7 +88,7 @@ const Header = () => {
             </div>
             <button
               onClick={openModal}
-              className="bg-[#2CA58D] text-white px-4 py-2 rounded-lg text-md font-bold hover:bg-[#2CA58D]/90 transition-all duration-200 hover:shadow-md hover:cursor-pointer"
+              className="bg-[#556a2d] text-white px-4 py-2 rounded-lg text-md font-bold hover:bg-[#556a2d]/90 transition-all duration-200 hover:shadow-md hover:cursor-pointer"
             >
               Book a Service
             </button>
@@ -98,7 +98,7 @@ const Header = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-700 hover:text-[#2CA58D] focus:outline-none"
+              className="text-gray-700 hover:text-[#556a2d] focus:outline-none"
               aria-label="Toggle menu"
             >
               <svg
@@ -139,8 +139,8 @@ const Header = () => {
                     href={link.href}
                     className={`block px-3 py-2 rounded-md text-base font-medium ${
                       isActive
-                        ? "text-[#2CA58D] bg-gray-100"
-                        : "text-gray-700 hover:text-[#2CA58D] hover:bg-gray-50"
+                        ? "text-[#556a2d] bg-gray-100"
+                        : "text-gray-700 hover:text-[#556a2d] hover:bg-gray-50"
                     }`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
@@ -168,7 +168,7 @@ const Header = () => {
               </div>
               <button
                 onClick={openModal}
-                className="block w-full text-center bg-[#2CA58D] text-white px-4 py-2 rounded-lg mt-2 hover:bg-[#2CA58D]/90 transition-colors duration-200"
+                className="block w-full text-center bg-[#556a2d] text-white px-4 py-2 rounded-lg mt-2 hover:bg-[#556a2d]/90 transition-colors duration-200"
               >
                 Book a Service
               </button>

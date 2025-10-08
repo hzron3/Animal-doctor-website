@@ -86,7 +86,7 @@ export default function OurBlog() {
       {/* Header Section */}
       <section className="bg-white pb-3 md:pb-6 pt-28 md:pt-32">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%]  text-center">
-          <h6 className="text-sm text-[#2CA58D] font-normal uppercase tracking-wider mb-2">
+          <h6 className="text-sm text-[#556a2d] font-normal uppercase tracking-wider mb-2">
             Our Blog
           </h6>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -103,7 +103,7 @@ export default function OurBlog() {
               placeholder="Search blog posts..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2CA58D]"
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#556a2d]"
             />
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function OurBlog() {
                     <span>{post.date}</span>
                     <span>{post.category}</span>
                   </div>
-                  <h2 className="text-xl font-bold text-gray-900 hover:text-[#2CA58D] transition-colors">
+                  <h2 className="text-xl font-bold text-gray-900 hover:text-[#556a2d] transition-colors">
                     <Link
                       href={`/our-blogs/${post.slug}`}
                       className="hover:underline"
@@ -139,7 +139,7 @@ export default function OurBlog() {
                   <p className="text-gray-600 line-clamp-3">{post.excerpt}</p>
                   <Link
                     href={`/our-blogs/${post.slug}`}
-                    className="inline-flex items-center text-[#2CA58D] font-medium hover:underline"
+                    className="inline-flex items-center text-[#556a2d] font-medium hover:underline"
                   >
                     Read More
                     <svg

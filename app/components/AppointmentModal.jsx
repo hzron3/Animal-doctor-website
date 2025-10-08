@@ -208,7 +208,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
       <div className="bg-white rounded-xl shadow-xl p-4 sm:p-6 md:p-8 w-full max-w-[95%] md:max-w-[1000px] max-h-[85vh] overflow-y-auto relative">
         <button
           onClick={handleClose}
-          className="absolute top-4 right-4 z-10 bg-white rounded-full p-2 shadow-md hover:shadow-lg transition-all duration-200 text-gray-600 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#2CA58D] focus:ring-offset-2 hover:cursor-pointer"
+          className="absolute top-4 right-4 z-10 bg-white rounded-full p-2 shadow-md hover:shadow-lg transition-all duration-200 text-gray-600 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#556a2d] focus:ring-offset-2 hover:cursor-pointer"
           aria-label="Close modal"
         >
           <svg
@@ -273,7 +273,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                   });
                   setErrors({});
                 }}
-                className="px-6 py-2 bg-[#2CA58D] text-white font-medium rounded-lg hover:bg-[#1a7461] transition-colors"
+                className="px-6 py-2 bg-[#556a2d] text-white font-medium rounded-lg hover:bg-[#1a7461] transition-colors"
               >
                 Book Another
               </button>
@@ -308,7 +308,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                     className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-colors ${
                       errors.name
                         ? "border-red-500 focus:ring-red-500"
-                        : "border-gray-300 focus:ring-[#2CA58D]"
+                        : "border-gray-300 focus:ring-[#556a2d]"
                     }`}
                     placeholder="Jane Doe"
                   />
@@ -334,7 +334,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                     className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-colors ${
                       errors.email
                         ? "border-red-500 focus:ring-red-500"
-                        : "border-gray-300 focus:ring-[#2CA58D]"
+                        : "border-gray-300 focus:ring-[#556a2d]"
                     }`}
                     placeholder="jane.doe@example.com"
                   />
@@ -360,7 +360,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                     className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-colors ${
                       errors.phone
                         ? "border-red-500 focus:ring-red-500"
-                        : "border-gray-300 focus:ring-[#2CA58D]"
+                        : "border-gray-300 focus:ring-[#556a2d]"
                     }`}
                     placeholder="+1 (555) 123-4567"
                   />
@@ -389,7 +389,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                     className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-colors ${
                       errors.petName
                         ? "border-red-500 focus:ring-red-500"
-                        : "border-gray-300 focus:ring-[#2CA58D]"
+                        : "border-gray-300 focus:ring-[#556a2d]"
                     }`}
                     placeholder="Buddy"
                   />
@@ -416,7 +416,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                     className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-colors ${
                       errors.petType
                         ? "border-red-500 focus:ring-red-500"
-                        : "border-gray-300 focus:ring-[#2CA58D]"
+                        : "border-gray-300 focus:ring-[#556a2d]"
                     }`}
                   >
                     <option value="">Select pet type</option>
@@ -447,7 +447,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                       name="breed"
                       value={formData.breed}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2CA58D] transition-colors"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#556a2d] transition-colors"
                       placeholder="e.g., Labrador Retriever"
                     />
                   </div>
@@ -469,7 +469,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                         type="checkbox"
                         checked={formData.services.includes(service)}
                         onChange={() => handleServiceChange(service)}
-                        className="rounded text-[#2CA58D] focus:ring-[#2CA58D]"
+                        className="rounded text-[#556a2d] focus:ring-[#556a2d]"
                       />
                       <span className="text-sm text-gray-700">{service}</span>
                     </label>
@@ -487,7 +487,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {/* Preferred Date */}
-                {/* <div>
+                <div>
                   <label
                     htmlFor="preferredDate"
                     className="block text-sm font-medium text-gray-700 mb-1"
@@ -504,7 +504,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                     className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 transition-colors ${
                       errors.preferredDate
                         ? "border-red-500 focus:ring-red-500"
-                        : "border-gray-300 focus:ring-[#2CA58D]"
+                        : "border-gray-300 focus:ring-[#556a2d]"
                     }`}
                   />
                   {errors.preferredDate && (
@@ -512,7 +512,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                       {errors.preferredDate}
                     </p>
                   )}
-                </div> */}
+                </div>
 
                 {/* Spacer or future field */}
                 <div></div>
@@ -535,7 +535,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                   className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 resize-none transition-colors ${
                     errors.message
                       ? "border-red-500 focus:ring-red-500"
-                      : "border-gray-300 focus:ring-[#2CA58D]"
+                      : "border-gray-300 focus:ring-[#556a2d]"
                   }`}
                   placeholder="Any special instructions, allergies, or details..."
                   maxLength={500}
@@ -554,7 +554,7 @@ const AppointmentModal = ({ isOpen, onClose }) => {
                   isSubmitting ||
                   Object.values(errors).some((error) => error !== "")
                 }
-                className="w-full bg-[#2CA58D] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#1a7461] transition-all duration-200 shadow-md disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center space-x-2 hover:cursor-pointer"
+                className="w-full bg-[#556a2d] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#556a2d]/90 transition-all duration-200 shadow-md disabled:bg-gray-400 disabled:cursor-not-allowed flex items-center justify-center space-x-2 hover:cursor-pointer"
               >
                 {isSubmitting ? (
                   <>

@@ -13,7 +13,7 @@ const ContactUs = () => {
         <div className="relative z-10 flex flex-col items-center gap-6">
           <div className="text-center mb-6">
             <h1 className="text-gray-900 text-2xl md:text-4xl font-bold leading-tight">
-              Contact <span className="text-[#2CA58D]">The Animal Doctor</span>
+              Contact <span className="text-[#556a2d]">The Animal Doctor</span>
             </h1>
             <p className="text-gray-600 text-base md:text-lg py-4 leading-relaxed max-w-2xl mx-auto">
               We’re here to help you and your pets! Reach out to us for
@@ -57,7 +57,7 @@ const ContactUs = () => {
                   key={index}
                   className="flex items-start gap-4 py-4 border-b border-gray-100 last:border-none"
                 >
-                  <item.icon className="w-7 h-7 text-[#2CA58D] flex-shrink-0" />
+                  <item.icon className="w-7 h-7 text-[#556a2d] flex-shrink-0" />
                   <div>
                     <h5 className="text-lg font-medium text-gray-900">
                       {item.title}
@@ -72,7 +72,7 @@ const ContactUs = () => {
 
         {/* Background Shape */}
         <div
-          className="absolute inset-0 bg-[#2CA58D]/10 z-0"
+          className="absolute inset-0 bg-[#556a2d]/10 z-0"
           style={{
             clipPath: "polygon(0 0, 100% 0, 100% 70%, 0 70%)",
             borderRadius: "1rem",

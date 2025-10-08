@@ -86,7 +86,7 @@ export default function BlogPost({ params }) {
           </p>
           <Link
             href="/blog"
-            className="mt-6 inline-block text-[#2CA58D] font-medium hover:underline"
+            className="mt-6 inline-block text-[#556a2d] font-medium hover:underline"
           >
             Back to Blog
           </Link>
@@ -102,7 +102,7 @@ export default function BlogPost({ params }) {
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] ">
           <Link
             href="/blog"
-            className="inline-flex items-center text-[#2CA58D] font-medium mb-4 hover:underline"
+            className="inline-flex items-center text-[#556a2d] font-medium mb-4 hover:underline"
           >
             <svg
               className="mr-2 h-4 w-4"
@@ -156,7 +156,7 @@ export default function BlogPost({ params }) {
               {post.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1 bg-[#2CA58D]/10 text-[#2CA58D] text-sm rounded-full"
+                  className="px-3 py-1 bg-[#556a2d]/10 text-[#556a2d] text-sm rounded-full"
                 >
                   {tag}
                 </span>
@@ -212,7 +212,7 @@ export default function BlogPost({ params }) {
                   <li key={related.id}>
                     <Link
                       href={`/blog/${related.slug}`}
-                      className="flex space-x-4 hover:text-[#2CA58D] transition-colors"
+                      className="flex space-x-4 hover:text-[#556a2d] transition-colors"
                     >
                       <Image
                         src={related.image}
@@ -249,7 +249,7 @@ export default function BlogPost({ params }) {
                   <li key={cat}>
                     <Link
                       href={`/blog?category=${cat.toLowerCase()}`}
-                      className="text-[#2CA58D] hover:underline"
+                      className="text-[#556a2d] hover:underline"
                     >
                       {cat}
                     </Link>
@@ -259,7 +259,7 @@ export default function BlogPost({ params }) {
             </div>
 
             {/* Newsletter Signup */}
-            <div className="bg-[#2CA58D] p-6 rounded-2xl text-white">
+            <div className="bg-[#556a2d] p-6 rounded-2xl text-white">
               <h3 className="text-xl font-bold mb-4">
                 Subscribe to Our Newsletter
               </h3>
@@ -274,7 +274,7 @@ export default function BlogPost({ params }) {
                 />
                 <button
                   type="submit"
-                  className="w-full py-3 bg-white text-[#2CA58D] font-medium rounded-lg hover:bg-gray-100 transition"
+                  className="w-full py-3 bg-white text-[#556a2d] font-medium rounded-lg hover:bg-gray-100 transition"
                 >
                   Subscribe
                 </button>

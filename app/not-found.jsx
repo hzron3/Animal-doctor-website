@@ -7,10 +7,10 @@ const NotFound = () => {
       <div className="flex flex-1 items-center justify-center p-6">
         <div className="bg-white text-gray-800 p-8 sm:p-10 rounded-2xl shadow-2xl text-center max-w-md w-full relative overflow-hidden">
           {/* Subtle Gradient Accent */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-[#2CA58D]/10 to-transparent rounded-2xl pointer-events-none"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-[#556a2d]/10 to-transparent rounded-2xl pointer-events-none"></div>
 
           {/* 404 Text */}
-          <h1 className="text-7xl sm:text-8xl font-extrabold text-[#2CA58D] mb-4 drop-shadow-sm">
+          <h1 className="text-7xl sm:text-8xl font-extrabold text-[#556a2d] mb-4 drop-shadow-sm">
             404
           </h1>
           <h2 className="text-xl sm:text-2xl font-semibold mb-3">
@@ -24,7 +24,7 @@ const NotFound = () => {
           {/* Go To Home Button */}
           <Link
             href="/"
-            className="inline-block bg-[#2CA58D] text-white font-medium px-6 py-2.5 rounded-lg shadow-md hover:bg-[#249179] hover:shadow-lg transition-all duration-300"
+            className="inline-block bg-[#556a2d] text-white font-medium px-6 py-2.5 rounded-lg shadow-md hover:bg-[#249179] hover:shadow-lg transition-all duration-300"
           >
             Go To Home
           </Link>

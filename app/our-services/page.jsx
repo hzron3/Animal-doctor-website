@@ -200,7 +200,7 @@ const OurServices = () => {
       {/* Header Section */}
       <section className="bg-white pb-3 md:pb-6 pt-28 md:pt-32">
         <div className="mx-auto max-w-[90%] sm:max-w-[85%] lg:max-w-[80%] text-center">
-          <h6 className="text-sm text-[#2CA58D] font-normal uppercase tracking-wider mb-2">
+          <h6 className="text-sm text-[#556a2d] font-normal uppercase tracking-wider mb-2">
             Our Services
           </h6>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -215,7 +215,7 @@ const OurServices = () => {
           </p>
           <button
             onClick={openModal}
-            className="mt-8 inline-flex items-center px-6 py-3 bg-[#2CA58D] hover:bg-[#1a7461] text-white font-medium rounded-lg transition-all duration-300 shadow-md hover:cursor-pointer"
+            className="mt-8 inline-flex items-center px-6 py-3 bg-[#556a2d] hover:bg-[#556a2d]/90 text-white font-medium rounded-lg transition-all duration-300 shadow-md hover:cursor-pointer"
           >
             Reserve a Spot
             <svg
@@ -252,8 +252,8 @@ const OurServices = () => {
                     href={`#${id}`}
                     className={`px-6 py-2 font-medium rounded-full transition-all duration-300 text-sm ${
                       isActive
-                        ? "bg-[#2CA58D] text-white shadow-lg"
-                        : "bg-gray-100 text-gray-700 hover:bg-gray-200 hover:text-[#2CA58D]"
+                        ? "bg-[#556a2d] text-white shadow-lg"
+                        : "bg-gray-100 text-gray-700 hover:bg-gray-200 hover:text-[#556a2d]"
                     }`}
                   >
                     {service.name}
@@ -284,7 +284,7 @@ const OurServices = () => {
               >
                 <div className="w-full lg:w-1/2 space-y-6">
                   <div className="flex items-center space-x-3">
-                    <ShieldCheckIcon className="h-8 w-8 text-[#2CA58D]" />
+                    <ShieldCheckIcon className="h-8 w-8 text-[#556a2d]" />
                     <h2 className="text-xl md:text-3xl font-bold text-gray-900">
                       {service.name}
                     </h2>
@@ -299,22 +299,22 @@ const OurServices = () => {
                     <ul className="space-y-2">
                       {service.benefits.map((benefit, idx) => (
                         <li key={idx} className="flex items-start space-x-2">
-                          <CheckIcon className="h-5 w-5 text-[#2CA58D] mt-0.5 flex-shrink-0" />
+                          <CheckIcon className="h-5 w-5 text-[#556a2d] mt-0.5 flex-shrink-0" />
                           <span className="text-gray-600">{benefit}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
-                  {service.priceRange && (
-                    <div className="bg-[#2CA58D]/5 p-3 rounded-lg inline-block">
+                  {/* {service.priceRange && (
+                    <div className="bg-[#556a2d]/5 p-3 rounded-lg inline-block">
                       <p className="text-sm font-medium text-gray-700">
                         Price Range:{" "}
-                        <span className="text-[#2CA58D]">
+                        <span className="text-[#556a2d]">
                           {service.priceRange}
                         </span>
                       </p>
                     </div>
-                  )}
+                  )} */}
                 </div>
                 <div className="w-full lg:w-1/2 relative">
                   <img

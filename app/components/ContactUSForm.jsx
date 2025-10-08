@@ -62,7 +62,7 @@ const ContactUSForm = () => {
             onChange={handleChange}
             className={`w-full px-4 py-2 rounded-lg border ${
               errors.firstName ? "border-red-500" : "border-gray-300"
-            } focus:ring-2 focus:ring-[#2CA58D]`}
+            } focus:ring-2 focus:ring-[#556a2d]`}
             placeholder="John"
           />
           {errors.firstName && (
@@ -82,7 +82,7 @@ const ContactUSForm = () => {
             onChange={handleChange}
             className={`w-full px-4 py-2 rounded-lg border ${
               errors.lastName ? "border-red-500" : "border-gray-300"
-            } focus:ring-2 focus:ring-[#2CA58D]`}
+            } focus:ring-2 focus:ring-[#556a2d]`}
             placeholder="Doe"
           />
           {errors.lastName && (
@@ -101,7 +101,7 @@ const ContactUSForm = () => {
           onChange={handleChange}
           className={`w-full px-4 py-2 rounded-lg border ${
             errors.email ? "border-red-500" : "border-gray-300"
-          } focus:ring-2 focus:ring-[#2CA58D]`}
+          } focus:ring-2 focus:ring-[#556a2d]`}
           placeholder="you@example.com"
         />
         {errors.email && <p className="text-red-500 text-xs">{errors.email}</p>}
@@ -118,7 +118,7 @@ const ContactUSForm = () => {
           onChange={handleChange}
           className={`w-full px-4 py-2 rounded-lg border ${
             errors.subject ? "border-red-500" : "border-gray-300"
-          } focus:ring-2 focus:ring-[#2CA58D] bg-white`}
+          } focus:ring-2 focus:ring-[#556a2d] bg-white`}
         >
           <option value="">Select a subject</option>
           <option value="appointment">Book an Appointment</option>
@@ -143,7 +143,7 @@ const ContactUSForm = () => {
           onChange={handleChange}
           className={`w-full px-4 py-2 rounded-lg border ${
             errors.message ? "border-red-500" : "border-gray-300"
-          } focus:ring-2 focus:ring-[#2CA58D]`}
+          } focus:ring-2 focus:ring-[#556a2d]`}
           placeholder="Tell us about your pet..."
         ></textarea>
         {errors.message && (
@@ -155,7 +155,7 @@ const ContactUSForm = () => {
       <div className="flex flex-col items-center">
         <button
           type="submit"
-          className="px-8 py-3 bg-[#2CA58D] text-white font-semibold rounded-lg hover:bg-[#249176] transition-all"
+          className="px-8 py-3 bg-[#556a2d] text-white font-semibold rounded-lg hover:bg-[#556a2d]/90 transition-all hover:cursor-pointer"
         >
           Send Message
         </button>
